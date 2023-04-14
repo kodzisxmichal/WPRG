@@ -1,13 +1,18 @@
 <?php
+session_start();
 
 $cookie_name="visits";
 $value = 1;
 
-if(isset($_COOKIE[$cookie_name])) {
-    $value = $_COOKIE[$cookie_name];
-    $value++;
+if (!isset($_SESSION['visited'])) {
+    $_SESSION['visited'] = true;
+
+    if(isset($_COOKIE[$cookie_name])) {
+        $value = $_COOKIE[$cookie_name];
+        $value++;
+    }
+    setcookie($cookie_name, $value, time() + (3600), "/");
 }
-setcookie($cookie_name, $value, time() + (3600), "/");
 
 ?>
 <html>
