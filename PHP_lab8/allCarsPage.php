@@ -4,7 +4,7 @@ require "Utillity\\PageManagament.php";
 ?>
 <html>
 <head>
-    <title>Strona Główna</title>
+    <title>Wszystkie samochody</title>
     <style>
         body{
             background-color: #393E46;
