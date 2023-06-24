@@ -1,0 +1,21 @@
+.login-table{
+    margin-left: 475px;
+}
+.login-buttons{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: #ffffff;
+}
+#login-button{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+#password-reset{
+    margin-top: 10px;
+    border: none;
+    background: none;
+    color: #ffffff;
+}

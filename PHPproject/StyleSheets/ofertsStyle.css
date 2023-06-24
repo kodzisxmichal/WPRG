@@ -1,0 +1,30 @@
+.sale-table {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+
+.table-cell {
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+
+.table-header {
+    font-weight: bold;
+    background-color: #393939;
+}
+
+.table-row:first-child {
+    background-color: #393939;
+}
+
+.table-row:hover {
+    background-color: #393939;
+}
